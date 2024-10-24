@@ -15,8 +15,8 @@ abstract public class Kato_Chapter18 {
 	}
 	
 	//名前をセット
-	public void setGivenName(String givenName) {
-		this.givenName=givenName; 
+	public void setGivenName() {
+		this.givenName=""; 
 	}
 	
 	//抽象メソッド　各クラスで定義された個別の紹介を出力する
